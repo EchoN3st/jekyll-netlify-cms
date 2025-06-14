@@ -33,6 +33,7 @@ plugins:
 show_excerpts: false # set to true to show excerpts on the homepage
 
 minimal_mistakes_skin: "dark" # or "neon", "contrast", "mint", etc.
+minimal_mistakes_stylesheet: /assets/css/main.css
 locale: "en-US"
 search: true
 read_time: true
