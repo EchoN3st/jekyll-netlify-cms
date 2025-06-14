@@ -36,14 +36,23 @@ h1, h2, h3 {
   border-bottom: 1px solid $border-color;
 }
 
-// Navigation text
+// Navigation
+.greedy-nav {
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid #2c2c2c;
+}
+
 .greedy-nav a,
 .greedy-nav .visible-links a {
-  color: #cccccc;
+  color: #d0d0d0 !important;
 }
 
 .greedy-nav a:hover {
-  color: $link-color;
+  color: #00ffc3 !important;
+}
+
+.site-title {
+  color: #d0d0d0 !important;
 }
 
 // Footer text
