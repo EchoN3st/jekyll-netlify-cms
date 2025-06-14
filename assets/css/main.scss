@@ -1,0 +1,20 @@
+---
+---
+
+@import "minimal-mistakes";
+
+// === CYBERPUNK THEME OVERRIDES ===
+$body-background-color: #0d0d0d;
+$primary-color: #00fff7;
+$accent-color: #ff00a0;
+$text-color: #c5c5c5;
+$muted-text-color: #888;
+$link-color: $primary-color;
+$link-color-hover: lighten($link-color, 10%);
+$border-color: #222;
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: $body-background-color;
+  color: $text-color;
+}
