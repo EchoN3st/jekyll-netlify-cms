@@ -22,15 +22,20 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://veilon.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
 
 # minima theme settings
 show_excerpts: false # set to true to show excerpts on the homepage
 
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
+minimal_mistakes_skin: "dark" # or "neon", "contrast", "mint", etc.
+locale: "en-US"
+search: true
+read_time: true
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -42,6 +47,23 @@ navigation: main
 twitter_username: 0xEch0_N3st
 github_username:  EchoN3st
 rss: rss
+
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
