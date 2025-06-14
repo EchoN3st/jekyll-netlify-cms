@@ -3,18 +3,27 @@
 
 @import "minimal-mistakes";
 
-// === CYBERPUNK THEME OVERRIDES ===
-$body-background-color: #0d0d0d;
-$primary-color: #00fff7;
-$accent-color: #ff00a0;
-$text-color: #c5c5c5;
-$muted-text-color: #888;
-$link-color: $primary-color;
+$body-background-color: #0e0e0e;
+$text-color: #c6c6c6;
+$link-color: #00ffe0;
 $link-color-hover: lighten($link-color, 10%);
-$border-color: #222;
+$primary-color: #00ffe0;
+$accent-color: #ff1ac6;
+$border-color: #1a1a1a;
 
+// NAV & FOOTER
+$nav-background-color: #0e0e0e;
+$footer-background-color: #0e0e0e;
+
+// FONT
 body {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   background-color: $body-background-color;
   color: $text-color;
+}
+
+// GLOW HEADINGS
+h1, h2, h3 {
+  color: $link-color;
+  text-shadow: 0 0 4px $accent-color;
 }
