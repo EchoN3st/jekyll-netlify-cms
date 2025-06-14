@@ -3,27 +3,27 @@
 
 @import "minimal-mistakes";
 
-$body-background-color: #0e0e0e;
-$text-color: #c6c6c6;
-$link-color: #00ffe0;
-$link-color-hover: lighten($link-color, 10%);
-$primary-color: #00ffe0;
-$accent-color: #ff1ac6;
-$border-color: #1a1a1a;
+$body-background-color: #121212;
+$text-color: #d0d0d0;
+$link-color: #00ffc3;
+$link-color-hover: #3effd9;
+$primary-color: $link-color;
+$accent-color: #444;
+$border-color: #222;
 
-// NAV & FOOTER
-$nav-background-color: #0e0e0e;
-$footer-background-color: #0e0e0e;
+// Nav & Footer
+$nav-background-color: #121212;
+$footer-background-color: #121212;
 
-// FONT
+// Font
 body {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Fira Code', monospace;
   background-color: $body-background-color;
   color: $text-color;
 }
 
-// GLOW HEADINGS
 h1, h2, h3 {
   color: $link-color;
-  text-shadow: 0 0 4px $accent-color;
+  font-weight: 600;
 }
+
