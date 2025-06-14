@@ -3,17 +3,17 @@
 
 @import "minimal-mistakes";
 
-$body-background-color: #121212;
-$text-color: #d0d0d0;
-$link-color: #00ffc3;
-$link-color-hover: #3effd9;
+$body-background-color: #1a1a1a;           
+$text-color: #e0e0e0;                     
+$link-color: #00ffc3;                     
+$link-color-hover: lighten($link-color, 10%);
 $primary-color: $link-color;
 $accent-color: #444;
-$border-color: #222;
+$border-color: #2c2c2c;
 
-// Nav & Footer
-$nav-background-color: #121212;
-$footer-background-color: #121212;
+// Header & footer
+$nav-background-color: #1a1a1a;
+$footer-background-color: #1a1a1a;
 
 // Font
 body {
@@ -22,8 +22,31 @@ body {
   color: $text-color;
 }
 
+// Headings
 h1, h2, h3 {
   color: $link-color;
   font-weight: 600;
 }
 
+// Fix header/footer colors
+.site-header,
+.page__footer {
+  background-color: $nav-background-color !important;
+  border-top: none;
+  border-bottom: 1px solid $border-color;
+}
+
+// Navigation text
+.greedy-nav a,
+.greedy-nav .visible-links a {
+  color: #cccccc;
+}
+
+.greedy-nav a:hover {
+  color: $link-color;
+}
+
+// Footer text
+.page__footer {
+  color: #999;
+}
