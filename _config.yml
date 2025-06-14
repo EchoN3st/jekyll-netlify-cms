@@ -36,6 +36,7 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.html
+navigation: main
 
 # social links
 twitter_username: 0xEch0_N3st
