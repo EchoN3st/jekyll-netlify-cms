@@ -3,21 +3,22 @@
 
 @import "minimal-mistakes";
 
-$body-background-color: #1a1a1a;           
-$text-color: #e0e0e0;                     
-$link-color: #00ffc3;                     
+// Base colors
+$body-background-color: #1a1a1a;
+$text-color: #e5e5e5;
+$link-color: #00ffc3;
 $link-color-hover: lighten($link-color, 10%);
 $primary-color: $link-color;
 $accent-color: #444;
 $border-color: #2c2c2c;
 
-// Header & footer
+// Header & Footer
 $nav-background-color: #1a1a1a;
 $footer-background-color: #1a1a1a;
 
 // Font
 body {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Inter', sans-serif;
   background-color: $body-background-color;
   color: $text-color;
 }
@@ -25,44 +26,15 @@ body {
 // Headings
 h1, h2, h3 {
   color: $link-color;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-// Fix header/footer colors
+// Header/Footer Fixes
 .site-header,
 .page__footer {
   background-color: $nav-background-color !important;
   border-top: none;
   border-bottom: 1px solid $border-color;
-}
-
-// Navigation
-.greedy-nav {
-  background-color: #1a1a1a !important;
-  border-bottom: 1px solid #2c2c2c;
-}
-
-.greedy-nav a,
-.greedy-nav .visible-links a {
-  color: #d0d0d0 !important;
-}
-
-.greedy-nav a:hover {
-  color: #00ffc3 !important;
-}
-
-.site-title {
-  color: #d0d0d0 !important;
-}
-
-.greedy-nav .wrapper {
-  background-color: #1a1a1a !important;
-  box-shadow: none;
-}
-
-// Footer text
-.page__footer {
-  color: #999;
 }
 
 #site-nav {
@@ -73,3 +45,102 @@ h1, h2, h3 {
 #site-nav .wrapper {
   background-color: transparent !important;
 }
+
+// Navigation
+.greedy-nav {
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid #2c2c2c;
+}
+
+.greedy-nav .wrapper {
+  background-color: #1a1a1a !important;
+  box-shadow: none;
+}
+
+.greedy-nav a,
+.greedy-nav .visible-links a {
+  color: #e5e5e5 !important;
+}
+
+.greedy-nav a:hover {
+  color: $link-color !important;
+}
+
+.site-title {
+  color: #e5e5e5 !important;
+}
+
+// Footer text
+.page__footer {
+  color: #999;
+}
+
+// post list cleanup
+.archive__item {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $border-color;
+}
+
+.archive__item-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.archive__item-excerpt {
+  color: lighten($text-color, 10%);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+// Modern Post Cards Grid
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.post-card {
+  background-color: #212121;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.post-card:hover {
+  border-color: #00ffc3;
+  transform: translateY(-2px);
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.post-title a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.7rem;
+}
+
+.post-excerpt {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+

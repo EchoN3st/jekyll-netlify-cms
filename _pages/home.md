@@ -1,7 +1,7 @@
 ---
-layout: home
-title: "Echo Nest's Cyber Blog"
+layout: default
+title: "Home"
 permalink: /
 author_profile: true
 ---
-Welcome to my blog. This is where I publish writeups and infosec content.
+{% include custom-posts-grid.html %}
