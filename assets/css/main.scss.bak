@@ -27,7 +27,7 @@ a:hover {
 
 // Sidebar 
 .sidebar-nav {
-  width: 180px;
+  width: 220px;
   position: fixed;
   top: 0;
   left: 0;
@@ -44,6 +44,7 @@ a:hover {
 
 .sidebar-nav ul {
   list-style: none;
+  padding: 0;
 }
 
 .sidebar-nav li {
@@ -76,79 +77,44 @@ a:hover {
 .main-content {
   margin-left: 240px;
   padding: 2rem;
-  display: flex;
-  justify-content: center;
+  flex: 1;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: 240px;
+
 }
 
-// Post List
-.post-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
-  width: 100%;
-  padding-top: 1rem;
 }
 
-.post-item {
-  //display: flex;
-  //flex-direction: row;
+.post-card {
   background-color: #1f2122;
-  border: 1px solid #2e2e2e;
-  border-radius: 8px;
-  width: 100%;
-  max-width: 800px;
   padding: 1.5rem;
-  //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  transition: border 0.3s ease;
+  border-radius: 8px;
+  border: 1px solid #2e2e2e;
+  transition: all 0.3s ease;
 }
-
-.post-item:hover {
+.post-card:hover {
   border-color: #00ffd0;
 }
 
-.post-content {
+
+.page-wrapper {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  //margin-left: 150px;
 }
 
-.post-title {
-  font-size: 1.3rem;
-  font-weight: 600;
-  margin: 0 0 0.5rem;
-}
-
-.post-title a {
-  color: #00ffd0;
-  text-decoration: none;
-}
-
-.post-title a:hover {
-  text-decoration: underline;
-}
-
-.post-date {
-  font-size: 0.85rem;
-  color: #999;
-  margin-bottom: 0.5rem;
-}
-
-.post-excerpt {
-  font-size: 1rem;
-  color: #ccc;
-  line-height: 1.6;
-}
-
-
-// Footer
 .site-footer {
-  width: 100%;
-  padding: 1rem 0;
-  text-align: center;
+  //background-color: #1a1a1a;
   color: #aaa;
+  text-align: center;
+  padding: 1px 0;
   font-size: 14px;
-  margin-top: auto;
-  background-color: transparent;
-
 }
 
 .site-footer p {
@@ -157,7 +123,7 @@ a:hover {
 
 
 .footer-social {
-  margin-top: 0.25rem;
+  margin-top: 0.3rem;
   text-align: center;
 
   a {
