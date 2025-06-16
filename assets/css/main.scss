@@ -27,7 +27,7 @@ a:hover {
 
 // Sidebar 
 .sidebar-nav {
-  width: 180px;
+  width: 240px;
   position: fixed;
   top: 0;
   left: 0;
@@ -60,6 +60,10 @@ a:hover {
 .sidebar-nav a:hover {
   background-color: #2a2a2a;
   color: #00ffd0;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  box-sizing: border-box;
+
 }
 
 .sidebar-nav a.active {
@@ -74,33 +78,32 @@ a:hover {
 
 // ====
 .main-content {
+  //width: 100%;
+  margin: 2rem auto;
   margin-left: 240px;
-  padding: 2rem;
+  padding: 2rem 1.5rem;
+  //max-width: 900px;
+  max-width: calc(100% - 240px);
   display: flex;
   justify-content: center;
 }
 
 // Post List
 .post-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
+  max-width: 800px;
   width: 100%;
-  padding-top: 1rem;
+  margin: 0 auto;
 }
 
 .post-item {
-  //display: flex;
-  //flex-direction: row;
   background-color: #1f2122;
-  border: 1px solid #2e2e2e;
-  border-radius: 8px;
-  width: 100%;
-  max-width: 800px;
   padding: 1.5rem;
-  //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  transition: border 0.3s ease;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #2e2e2e;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 700px;
 }
 
 .post-item:hover {
