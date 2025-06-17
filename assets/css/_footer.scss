@@ -1,0 +1,16 @@
+.site-footer {
+    width: 100%;
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    margin-top: auto;
+    bottom: 0;
+    margin-left: $sidebar-width;
+    background-color: transparent;
+    max-width: calc(100% - 240px);
+    justify-content: center;
+  }
+  
+  .site-footer p {
+   margin-bottom:0.2rem;
+   }

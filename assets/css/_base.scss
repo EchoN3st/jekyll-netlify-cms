@@ -1,0 +1,31 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #121416;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 0.85rem;
+  }
+  
+  a {
+    color: #00ffd0;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #80ffe5;
+  }
+  
+  .site-header {
+    background-color: #181a1b;
+    padding: 1rem;
+  }
+
+  .main-content {
+    width: 100%;
+    margin-left: $sidebar-width;
+    padding: 2rem 1.5rem;
+    max-width: calc(100% - $sidebar-width);
+    display: flex;
+    justify-content: center;
+  }

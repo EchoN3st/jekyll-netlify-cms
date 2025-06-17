@@ -31,7 +31,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: custom-post
       author_profile: false
       read_time: true
       comments: false
@@ -40,6 +40,9 @@ defaults:
 markdown: kramdown
 kramdown:
   input: GFM
+
+sass:
+  style: compressed
 
 permalink: /:categories/:year/:month/:day/:title/
 paginate: 5
