@@ -5,65 +5,97 @@
     top: 0;
     left: 0;
     height: 100vh;
-    background: #1e1e1e;
+    background:$foreground-color;
     padding-top: 2rem;
   }
-  
-  .sidebar-nav .logo {
-    font-size: 1.5rem;
-    color: #00ffd0;
-    padding-left: 1rem;
-  }
-  
-  .sidebar-nav ul {
-    list-style: none;
-  }
-  
-  .sidebar-nav li {
-    margin: 1rem 0;
-    padding-left: 1rem;
-  }
-  
-  .sidebar-nav a {
-    display: block;
-    padding: 0.6rem 1rem;
-    color: #ccc;
-  }
-  
-  .sidebar-nav a:hover {
-    background-color: #2a2a2a;
-    color: #00ffd0;
-    border-radius: 6px;
-    padding: 0.6rem 1rem;
-    box-sizing: border-box;
-  
-  }
-  
-  .sidebar-nav a.active {
-    background-color: #2a2a2a;
-    color: #00ffd0;
-    display: block;
-    width: 100%;
-    border-radius: 6px;
-    padding: 0.6rem 1rem;
-    box-sizing: border-box;
-  }
-  
-  .sidebar-social {
-    position: absolute;
-    bottom: 0rem;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    a {
-      color: #00ffc3;
-      font-size: 0.85rem;
-      transition: color 0.3s;
-  
-      &:hover {
-        color: lighten(#00ffc3, 30%);
-      }
+ 
+.sidebar-nav ul {
+  list-style: none;
+}
+
+.sidebar-nav li {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.sidebar-nav a {
+  display: block;
+  padding: 0.6rem 1rem;
+  color: $text-color;
+}
+
+.sidebar-nav ul li i {
+  margin-right: 0.7rem;
+  min-width: 16px;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.sidebar-nav a:hover {
+  background-color: $foreground-hover-color;
+  color: $accent-color;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  box-sizing: border-box;
+}
+
+.sidebar-nav a.active {
+  background-color: $foreground-hover-color;
+  color: $accent-color;
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  box-sizing: border-box;
+}
+
+.sidebar-nav .logo a:hover {
+  background-color: transparent !important;
+  color: $accent-color !important;
+  cursor: default;
+}
+
+
+
+.sidebar-social {
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  margin-right: 0rem;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  a {
+    color: $accent-color;
+    font-size: 0.85rem;
+    transition: color 0.3s;
+
+    &:hover {
+      color: lighten($accent-color, 30%);
     }
   }
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 1rem;
+
+  .profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    border: 2px solid $accent-color;
+  }
+
+  a {
+    display: block;
+    color: $text-color;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 0.3rem;
+  }
+}
+  

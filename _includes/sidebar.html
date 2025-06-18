@@ -1,9 +1,12 @@
 <header class="site-header">
   <nav class="sidebar-nav">
-    <div class="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+    <div class="logo">
+      <img src="/assets/img/profile.png" alt="Profile picture" class="profile-pic">
+      <a href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+    </div>
     <ul>
       {% for item in site.data.navigation %}
-        <li><a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a></li>
+        <li><a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %}"><i class="{{ item.icon }}"></i>{{ item.title }}</a></li>
       {% endfor %}
     </ul>
     <div class="sidebar-social">

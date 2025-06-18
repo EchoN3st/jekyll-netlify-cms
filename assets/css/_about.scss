@@ -1,12 +1,12 @@
 .about-page {
     .page-title {
-      color: #00ffd0;
+      color: $accent-color;
       font-size: 2rem;
     }
   
     .page__content {
       line-height: 1.8;
       font-size: 1.1rem;
-      color: #ccc;
+      color: $text-color;
     }
   }
