@@ -1,0 +1,28 @@
+.homepage-intro {
+  max-width: 80%;
+  margin: 0 auto 2rem auto;
+}
+
+.homepage-sections {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section-description {
+  h2 {
+    font-size: 1.2rem;
+    color: $accent-color;
+    margin-bottom: 0.4rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: $text-color;
+    margin: 0;
+  }
+}
+

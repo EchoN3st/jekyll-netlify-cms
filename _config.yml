@@ -3,6 +3,10 @@ description: Cybersecurity insights
 email: echonest@veilon.org
 author:
   name: "0xEch0_N3st"
+
+
+
+  
 url: "https://veilon.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings

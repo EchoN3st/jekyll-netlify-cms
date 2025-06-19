@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (master by default)
+  branch: master
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
@@ -12,9 +12,8 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "custom-post"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: "categories", widget: "string", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
-      

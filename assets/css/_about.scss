@@ -1,12 +1,7 @@
-.about-page {
-    .page-title {
-      color: #00ffd0;
-      font-size: 2rem;
-    }
-  
-    .page__content {
-      line-height: 1.8;
-      font-size: 1.1rem;
-      color: #ccc;
-    }
-  }
+.about-section{
+  text-align: justify;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: $foreground-color;
+  border: 1px solid $accent-defused-color;
+}
