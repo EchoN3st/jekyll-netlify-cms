@@ -1,0 +1,26 @@
+.tag-cloud {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  .tag {
+    background-color: #2a2a2a;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    color: #66d9ef;
+    text-decoration: none;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #3a3a3a;
+    }
+
+    .tag-count {
+      color: #aaa;
+      font-size: 0.8rem;
+      margin-left: 4px;
+    }
+  }
+}

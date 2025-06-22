@@ -9,6 +9,10 @@
         <li><a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %}"><i class="{{ item.icon }}"></i>{{ item.title }}</a></li>
       {% endfor %}
     </ul>
+    <section class="widget">
+      <h3>Tags</h3>
+      {% include tag-cloud.html %}
+    </section>
     <div class="sidebar-social">
       <a href="https://github.com/EchoN3st" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
       <a href="https://twitter.com/0xEch0_N3st" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
