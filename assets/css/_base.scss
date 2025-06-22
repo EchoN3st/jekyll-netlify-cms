@@ -1,22 +1,118 @@
+html {
+  font-size: 24px;
+}
+
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: $background-color;
-    color: $text-color;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+  font-family: 'Inter', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 0.8rem;
+}
+  
+  
+.site-header {
+  padding: 1rem;
+}
+
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.main-content {
+  width: 100%;
+  margin-left: $sidebar-width;
+  padding: 1.5rem 1rem;
+  max-width: calc(100% - $sidebar-width);
+  justify-content: center;
+  flex: 3;
+}
+
+.content-left {
+  flex: 3;
+  max-width: 700px;
+}
+
+.recent-tags {
+  flex: 1;
+  max-width: 350px;
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 8px;
+
+  .widget h3 {
     font-size: 0.85rem;
+    color: $text-color;
+    margin-bottom: 0.5rem;
+    margin-top: 0%;
+    text-transform: uppercase;
+    white-space: nowrap;
   }
-  
-  
-  .site-header {
-    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mobile-header {
+    display: flex;
+  }
+
+  .sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $sidebar-width;
+    height: 100%;
+    background-color: $background-color;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .sidebar-wrapper.open {
+    transform: translateX(0);
   }
 
   .main-content {
-    width: 100%;
-    margin-left: $sidebar-width;
-    padding: 2rem 1.5rem;
-    max-width: calc(100% - $sidebar-width);
-    justify-content: center;
+    margin-left: 0;
+    max-width: 100%;
+    padding: 1rem;
   }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .recent-tags {
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+}
+
+
+.mobile-header {
+  display: none;
+  background-color: $background-color;
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  align-items: center;
+  justify-content: space-between;
+
+  .burger {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: $text-color;
+    cursor: pointer;
+  }
+
+  .site-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: $text-color;
+  }
+}

@@ -1,26 +1,22 @@
-.tag-cloud {
-  margin: 2rem 0;
+.trending-tags .tag-cloud {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.3rem;
+  width: 100%;         
+  line-height: 1;
 
   .tag {
-    background-color: #2a2a2a;
-    padding: 0.4rem 0.8rem;
-    border-radius: 999px;
-    font-size: 0.9rem;
-    color: #66d9ef;
+    font-size: 0.65rem;
+    padding: 0.2rem 0.5rem;
+    background-color: $foreground-color;
+    color: $text-color;
+    border-radius: 4px;
     text-decoration: none;
-    transition: background-color 0.2s;
+    white-space: nowrap;
 
     &:hover {
-      background-color: #3a3a3a;
-    }
-
-    .tag-count {
-      color: #aaa;
-      font-size: 0.8rem;
-      margin-left: 4px;
+      background-color: $foreground-hover-color;
+      color: #fff;
     }
   }
 }

@@ -4,8 +4,14 @@
   {% include head.html %}
 </head>
 <body>
+  <div class="mobile-header">
+    <button id="burger" class="burger">&#9776;</button>
+    <span class="site-title">{{ site.title }}</span>
+  </div>
   <div class="page-wrapper">
-    {% include sidebar.html %}
+    <div id="sidebar" class="sidebar-wrapper">
+      {% include sidebar.html %}
+    </div>
 
     <main class="main-content">
       <article class="custom-post">
