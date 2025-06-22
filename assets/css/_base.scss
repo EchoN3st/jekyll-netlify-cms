@@ -1,3 +1,5 @@
+
+$page-max-width: 1000px;
 html {
   font-size: 24px;
 }
@@ -12,7 +14,17 @@ body {
   font-size: 0.8rem;
 }
   
-  
+.page-wrapper {
+  display: flex;
+}
+
+.sidebar-wrapper {
+  width: $sidebar-width;
+  min-width: $sidebar-width;
+  background-color: $background-color;
+  flex-shrink: 0;
+}
+
 .site-header {
   padding: 1rem;
 }
@@ -20,17 +32,21 @@ body {
 
 .content-wrapper {
   display: flex;
+  flex: 1;
   align-items: flex-start;
   gap: 2rem;
+  padding: 2rem;
 }
 
 .main-content {
-  width: 100%;
-  margin-left: $sidebar-width;
-  padding: 1.5rem 1rem;
-  max-width: calc(100% - $sidebar-width);
-  justify-content: center;
   flex: 3;
+  display: flex;
+  justify-content: center;
+
+  > * {
+    width: 100%;
+    max-width: $page-max-width;
+  }
 }
 
 .content-left {
@@ -56,6 +72,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  .main-content {
+    padding: 0 1rem;
+
+    > * {
+      max-width: 100%;
+    }
+  }
+  
   .mobile-header {
     display: flex;
   }
