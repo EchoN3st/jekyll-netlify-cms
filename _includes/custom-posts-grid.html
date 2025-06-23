@@ -1,6 +1,7 @@
+
 <div class="post-list">
   {% for post in site.posts %}
-    <article class="post-item">
+    <article class="post-item" data-url="{{ post.url | relative_url }}">
       <div class="post-content">
         <h2 class="post-title">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

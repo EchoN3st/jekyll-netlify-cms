@@ -1,0 +1,12 @@
+<section class="widget trending-tags">
+  <h3>Trending Tags</h3>
+  <div class="tag-cloud">
+    {% assign tags_sorted = site.tags | sort %}
+    {% for tag in tags_sorted limit: 10 %}
+      {% assign tag_name = tag[0] %}
+      <a href="/tags/{{ tag_name | slugify }}/" class="tag">
+        {{ tag_name }}
+      </a>
+    {% endfor %}
+  </div>
+</section>

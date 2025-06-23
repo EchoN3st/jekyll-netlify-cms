@@ -1,0 +1,22 @@
+.trending-tags .tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  width: 100%;         
+  line-height: 1;
+
+  .tag {
+    font-size: 0.65rem;
+    padding: 0.2rem 0.5rem;
+    background-color: $foreground-color;
+    color: $text-color;
+    border-radius: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: $foreground-hover-color;
+      color: #fff;
+    }
+  }
+}
