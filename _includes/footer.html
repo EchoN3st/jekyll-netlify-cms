@@ -5,11 +5,9 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const burger = document.getElementById('burger');
-    const sidebar = document.getElementById('sidebar');
-
-    if (burger && sidebar) {
+    if (burger) {
       burger.addEventListener('click', function () {
-        sidebar.classList.toggle('open');
+        document.body.classList.toggle('sidebar-open');
       });
     }
   });

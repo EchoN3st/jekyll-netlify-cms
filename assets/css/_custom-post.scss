@@ -30,6 +30,8 @@
   border: 1px solid $foreground-hover-color;
   transition: all 0.3s ease;
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .post-item, .custom-post {
@@ -42,6 +44,14 @@
 .post-item:hover {
   border-color: $accent-color;
 }
+
+.post-overlay-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  text-indent: -9999px;
+}
+
 
 .post-content {
   flex: 1;
@@ -176,6 +186,9 @@
     padding: 0 !important;
   }
 }
+
+
+
 
 @media (max-width: 1024px) {
   .post-list {

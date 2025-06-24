@@ -71,33 +71,63 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  .main-content {
-    padding: 0 1rem;
 
-    > * {
-      max-width: 100%;
-    }
-  }
-  
+.mobile-header {
+  display: none;
+  background-color: var(--background-color);
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-header .burger {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  cursor: pointer;
+  position: relative;
+  z-index: 1001;
+}
+
+.mobile-header .site-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+/* --- Mobile Styles --- */
+@media (max-width: 768px) {
   .mobile-header {
     display: flex;
+  }
+
+  .main-content {
+    padding: 0 1rem;
+  }
+
+  .main-content > * {
+    max-width: 100%;
   }
 
   .sidebar-wrapper {
     position: fixed;
     top: 0;
     left: 0;
-    width: $sidebar-width;
+    width: var(--sidebar-width);
     height: 100%;
-    background-color: $background-color;
+    background-color: var(--background-color);
     z-index: 1000;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
   }
 
-  .sidebar-wrapper.open {
+  body.sidebar-open .sidebar-wrapper {
     transform: translateX(0);
+  }
+
+  body.sidebar-open {
+    overflow: hidden;
   }
 
   .main-content {
@@ -115,28 +145,16 @@ body {
     margin-top: 2rem;
     max-width: 100%;
   }
-}
 
-
-.mobile-header {
-  display: none;
-  background-color: $background-color;
-  padding: 1rem;
-  border-bottom: 1px solid #333;
-  align-items: center;
-  justify-content: space-between;
-
+  /* Optional: move burger with sidebar */
   .burger {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    color: $text-color;
-    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
   }
 
-  .site-title {
-    font-size: 1rem;
-    font-weight: bold;
-    color: $text-color;
+  body.sidebar-open .burger {
+    transform: translateX(var(--sidebar-width));
   }
 }
