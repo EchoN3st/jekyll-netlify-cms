@@ -1,16 +1,18 @@
 .site-footer {
-    width: 50%;
-    text-align: center;
-    color: $text-color;
-    font-size: 14px;
-    margin-top: auto;
-    bottom: 0;
-    margin-left: calc($sidebar-width + 20%);
-    background-color: transparent;
-    max-width: calc(100% - 240px);
-    justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  text-align: center;
+  color: $text-color;
+  font-size: 14px;
+  margin-top: auto;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .site-footer {
+    margin-left: calc($sidebar-width);
+    width: calc(100% - $sidebar-width);
   }
-  
-.site-footer p {
-  margin-bottom:0.2rem;
-  }
+}
