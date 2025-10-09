@@ -65,36 +65,34 @@ To be sure, advocating in favor of piracy is not the same as encouraging people 
 
 ## Sources
 
-\[1] J. Karaganis, *Media Piracy in Emerging Economies*. New York, NY, USA: Social Science Research Council, 2011.
+\[1] J. Karaganis, “Media Piracy in Emerging Economies,” *www.ssrc.org*, Mar. 2011, Available: https://www.ssrc.org/publications/media-piracy-in-emerging-economies/
 
-\[2] J. Bohannon, “Who’s Downloading Pirated Papers? Everyone,” *Science*, vol. 352, no. 6285, pp. 508–512, 2016.
+\[2]J. Bohannon, “Who’s downloading pirated papers? Everyone,” *Science*, vol. 352, no. 6285, pp. 508–512, Apr. 2016, doi: https://doi.org/10.1126/science.352.6285.508.
 
-\[3] J. Turrill, “How Arctic Monkeys Built a Following Through the Internet,” *NME*, 2006. \[Online]. Available: [https://www.nme.com](https://www.nme.com/)
+\[3] B. Clement, “The Band Who Reformed the Music Industry: The Arctic Monkeys,” *Past/Present/Pop*, Dec. 06, 2023. https://medium.com/past-present-pop/the-band-who-reformed-the-music-industry-the-arctic-monkeys-82daad81cd59
 
-\[4] B. Werde, “Dispatch Finds Success with DIY Approach,” *Rolling Stone*, 2000.
+\[4] V. Rognoli and Camilo Ayala-Garcia, “Defining the DIY-Materials approach,” pp. 227–258, Jan. 2021, doi: https://doi.org/10.1016/b978-0-12-819244-3.00010-7.
 
-\[5] P. Coelho, Blog posts and interviews on piracy and international sales success. \[Online]. Available: [https://paulocoelhoblog.com](https://paulocoelhoblog.com/)
+\[5] B. Acharya, “How Paulo Coelho Used Piracy to Skyrocket ‘The Alchemist’ Sales,” *Medium*, Sep. 26, 2020. https://medium.com/better-marketing/how-paulo-coelho-used-piracy-to-skyrocket-the-alchemist-sales-199ccb8788a2 (accessed Oct. 09, 2025).
 
-\[6] A. Liptak, “Time Warner CEO: Piracy is Better Than an Emmy,” *The Verge*, 2013. \[Online]. Available: [https://www.theverge.com](https://www.theverge.com/)
+\[6] W. Hickey, “Time Warner CEO: People Pirating ‘Game of Thrones’ Is Better Than An Emmy For HBO,” *Business Insider*, Aug. 08, 2013. https://www.businessinsider.com/time-warner-ceo-people-pirating-game-of-thrones-is-better-than-an-emmy-for-hbo-2013-8?op=1
 
-\[7] Australian Broadband Index Report, 2023. \[Online]. Available: [https://nbnco.com.au](https://nbnco.com.au/)
+\[7] ACCC, “Broadband performance data,” *Australian Competition and Consumer Commission*, Mar. 28, 2018. https://www.accc.gov.au/consumers/telecommunications-and-internet/broadband-performance-data
 
-\[8] MUSO, “Global Piracy Insights Report,” 2023. \[Online]. Available: [https://www.muso.com](https://www.muso.com/)
+\[8] M. London, “MUSO 2024 Piracy Trends and Insights report,” *Muso.com*, 2024. https://www.muso.com/2024-piracy-trends-and-insights
 
-\[9] Streaming Observer, “How Many Streaming Services Does the Average Household Use?” 2024. \[Online]. Available: [https://www.streamingobserver.com](https://www.streamingobserver.com/)
+\[9] A. Durrani, “Top Streaming Statistics in 2024,” *Forbes*, Aug. 15, 2024. https://www.forbes.com/home-improvement/internet/streaming-stats/
 
-\[10] Kotaku, “Gabe Newell on Piracy and Valve’s Strategy,” 2011. \[Online]. Available: [https://kotaku.com](https://kotaku.com/)
+\[10] G. Tito, “Valve’s Gabe Newell Says Piracy Is a Service Problem,” *The Escapist*, Nov. 28, 2011. https://www.escapistmagazine.com/valves-gabe-newell-says-piracy-is-a-service-problem/
 
-\[11] Video Game History Foundation, “The State of Game Preservation,” 2023. \[Online]. Available: [https://gamehistory.org](https://gamehistory.org/)
+\[11] K. Lewin, “87% Missing: the Disappearance of Classic Video Games,” *Video Game History Foundation*, Jul. 10, 2023. https://gamehistory.org/87percent/
 
 \[12] Library Genesis and Open Culture Archive Resources. \[Online]. Available: [https://libgen.rs](https://libgen.rs/), [https://openculture.com](https://openculture.com/)
 
-\[13] D. Ek, Spotify CEO Interviews and Investor Letters, 2009–2015. \[Online]. Available: [https://newsroom.spotify.com](https://newsroom.spotify.com/)
+\[13] H. Coster, “The Netflix decade: How one company changed the way we watch TV,” *Reuters*, Dec. 23, 2019. Available: https://www.reuters.com/article/technology/the-netflix-decade-how-one-company-changed-the-way-we-watch-tv-idUSKBN1YR1AD/
 
-\[14] *Wired*, “How Netflix Changed the Way We Watch TV—and the Way We Pirate It.” \[Online]. Available: [https://www.wired.com](https://www.wired.com/)
+\[14] Farhad Manjoo, “Netflix streaming is killing piracy.,” *Slate Magazine*, Jul. 26, 2011. https://slate.com/technology/2011/07/netflix-streaming-is-killing-piracy.html
 
-\[15] *Slate*, “Netflix is Killing Piracy,” 2011. \[Online]. Available: [https://slate.com](https://slate.com/)
+\[15] “‘Popcorn Time’ Remains Popular With Millions of Users * TorrentFreak,” *Torrentfreak.com*, 2022. https://torrentfreak.com/popcorn-time-has-millions-of-users-140709/ (accessed Oct. 09, 2025).
 
-\[16] Popcorn Time Media Coverage, 2014–2016. \[Online]. Available: [https://torrentfreak.com](https://torrentfreak.com/)
-
-\[17] Valve Corporation, “Steam Regional Market Reports,” 2010–2015. \[Online]. Available: https://store.steampowered.com
+\[16] Valve Corporation, “Steam Regional Market Reports,” 2010–2015. \[Online]. Available: https://store.steampowered.com
