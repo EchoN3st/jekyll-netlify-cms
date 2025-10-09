@@ -51,7 +51,7 @@ That same year, it emerged that contractors for other companies – like Amazon,
 
 And it doesn’t stop with phones. Smart home devices like Alexa, Google Home, and Siri are quietly always listening for their wake words. These companies say the data is anonymized or only stored briefly, but leaks and investigative reports show humans have reviewed private recordings \[14], and that these devices sometimes activate unintentionally without any prompt \[15].
 
-On top of that, consider a recent example of how far the advertising industry is willing to go: the “Active Listening” software pitched by Cox Media Group in late 2023. This technology purportedly captured real-time conversations from phones, smart TVs, and other devices to target users with ads. Cox’s own leaked pitch deck explicitly listed Meta (Facebook), Google, Amazon, and even Bing as partners in this effort \[16] - though all three tech companies denied any involvement once the story broke, with Google severing ties and Amazon flatly refuting the claim when confronted \[18].
+On top of that, consider a recent example of how far the advertising industry is willing to go: the “Active Listening” software pitched by Cox Media Group in late 2023. This technology purportedly captured real-time conversations from phones, smart TVs, and other devices to target users with ads. Cox’s own leaked pitch deck explicitly listed Meta (Facebook), Google, Amazon, and even Bing as partners in this effort \[16] - though all three tech companies denied any involvement once the story broke, with Google severing ties and Amazon flatly refuting the claim when confronted \[17].
 
 The takeaway? This is not conspiracy, it’s business. The platforms provide the microphones and listening devices, and advertisers are eager to use them. It’s built into the services we’re encouraged to trust and depend on.
 
@@ -77,42 +77,40 @@ Modern life pushes us to share constantly but rarely reminds us to protect ourse
 
 As Edward Snowden famously said, “Arguing that you don’t care about privacy because you have nothing to hide is like arguing that you don’t care about free speech because you have nothing to say.” That’s the heart of it. You may not think your data matters until someone else decides to use it against you. And while we can’t stop every form of surveillance, we can choose to be more aware, more intentional, and more in control of what we give away. Because in the end, your digital footprint is yours and it should stay that way.
 
-
-
 ## References
 
-\[1] G. Kumparak, "Facebook Now Cares About How Long You Look At Stuff In Your News Feed," TechCrunch, Jun. 12, 2015. \[Online]. Available: https://techcrunch.com/2015/06/12/facebook-now-cares-about-how-long-you-look-at-stuff-in-your-news-feed/
+\[1] G. Kumparak, "Facebook Now Cares About How Long You Look At Stuff In Your News Feed | TechCrunch," TechCrunch, Jun. 12, 2015. https://techcrunch.com/2015/06/12/facebook-now-cares-about-how-long-you-look-at-stuff-in-your-news-feed/
 
-\[2] D. Ghimiray, "How to remove the location from photos on multiple devices," Norton, Sep. 16, 2024. \[Online]. Available: https://us.norton.com/blog/how-to/how-to-remove-gps-and-other-metadata-locations-from-photos
+\[2] "How to remove GPS and other metadata locations from photos," us.norton.com. https://us.norton.com/blog/how-to/how-to-remove-gps-and-other-metadata-locations-from-photos
 
-\[3] McAfee, "Can My Phone Be Tracked If Location Services Are Off?" \[Online]. Available: https://www.mcafee.com/learn/can-my-phone-be-tracked-if-location-services-are-off/
+\[3] "Can My Phone Be Tracked If Location Services Are Off?," McAfee, Dec. 05, 2022. https://www.mcafee.com/learn/can-my-phone-be-tracked-if-location-services-are-off/
 
-\[4] University of Cambridge, "Digital records could expose intimate details and personality traits of millions," Mar. 11, 2013. \[Online]. Available: https://www.cam.ac.uk/research/news/digital-records-could-expose-intimate-details-and-personality-traits-of-millions
+\[4] "Digital records could expose intimate details and personality traits of millions," University of Cambridge, Mar. 11, 2013. https://www.cam.ac.uk/research/news/digital-records-could-expose-intimate-details-and-personality-traits-of-millions
 
-\[5] Knowledge@Wharton, "Your Data Is Shared and Sold… What’s Being Done About It?" Oct. 28, 2019. \[Online]. Available: https://knowledge.wharton.upenn.edu/article/data-shared-sold-whats-done/
+\[5] Knowledge at Wharton Staff, "Your Data Is Shared and Sold...What’s Being Done About It?," Knowledge at Wharton, Oct. 28, 2019. https://knowledge.wharton.upenn.edu/article/data-shared-sold-whats-done/
 
-\[6] C. Cadwalladr and E. Graham-Harrison, "Revealed: 50 million Facebook profiles harvested for Cambridge Analytica in major data breach," The Guardian, Mar. 17, 2018. \[Online]. Available: https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election
+\[6] C. Cadwalladr and E. Graham-Harrison, "Revealed: 50 Million Facebook Profiles Harvested for Cambridge Analytica in Major Data Breach," The Guardian, Mar. 18, 2018. https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election
 
-\[7] The Independent, "What is a sim-swap? How you could be targeted by the fraud used to hack M&S," Apr. 2024. \[Online]. Available: https://www.the-independent.com/news/uk/home-news/sim-swapping-fraud-marks-and-spencer-b2749238.html
+\[7] B. Gooch, "What is a sim-swap? How you could be targeted by the fraud used to hack M&S," The Independent, May 12, 2025. https://www.the-independent.com/news/uk/home-news/sim-swapping-fraud-marks-and-spencer-b2749238.html (accessed Oct. 09, 2025).
 
-\[8] J. Sherman, "People Search Data Brokers, Stalking, and 'Publicly Available Information' Carve-Outs," Lawfare, Oct. 30, 2023. \[Online]. Available: https://www.lawfaremedia.org/article/people-search-data-brokers-stalking-and-publicly-available-information-carve-outs
+\[8] "People Search Data Brokers, Stalking, and ‘Publicly Available Information’ Carve-Outs," Default, 2023. https://www.lawfaremedia.org/article/people-search-data-brokers-stalking-and-publicly-available-information-carve-outs
 
-\[9] Harvard Business Review, "Stop Screening Job Candidates’ Social Media," Sep.–Oct. 2021. \[Online]. Available: https://hbr.org/2021/09/stop-screening-job-candidates-social-media
+\[9] R. Wong, "Stop Screening Job Candidates’ Social Media," Harvard Business Review, Sep. 01, 2021. https://hbr.org/2021/09/stop-screening-job-candidates-social-media
 
-\[10] A. Chen, "Why the future of life insurance may depend on your online presence," The Verge, Feb. 7, 2019. \[Online]. Available: https://www.theverge.com/2019/2/7/18211890/social-media-life-insurance-new-york-algorithms-big-data-discrimination-online-records
+\[10] A. Chen, "Why the future of life insurance may depend on your online presence," The Verge, Feb. 07, 2019. https://www.theverge.com/2019/2/7/18211890/social-media-life-insurance-new-york-algorithms-big-data-discrimination-online-records
 
-\[11] A. Hern, "Facebook admits contractors listened to users' recordings without their knowledge," The Guardian, Aug. 13, 2019. \[Online]. Available: https://www.theguardian.com/technology/2019/aug/13/facebook-messenger-user-recordings-contractors-listening
+\[11] "Facebook admits contractors listened to users’ recordings without their knowledge," the Guardian, Aug. 14, 2019. https://www.theguardian.com/technology/2019/aug/13/facebook-messenger-user-recordings-contractors-listening
 
-\[12] A. Hern, "Apple halts practice of contractors listening in to users on Siri," The Guardian, Aug. 2, 2019. \[Online]. Available: https://www.theguardian.com/technology/2019/aug/02/apple-halts-practice-of-contractors-listening-in-to-users-on-siri
+\[12] "Apple halts practice of contractors listening in to users on Siri," \*the Guardian\*, Aug. 02, 2019. https://www.theguardian.com/technology/2019/aug/02/apple-halts-practice-of-contractors-listening-in-to-users-on-siri
 
-\[13] K. Paul, "Google workers can listen to what people say to its AI home devices," The Guardian, Jul. 11, 2019. \[Online]. Available: https://www.theguardian.com/technology/2019/jul/11/google-home-assistant-listen-recordings-users-privacy
+\[13] K. Paul, "Google workers can listen to what people say to its AI home devices," \*the Guardian\*, Jul. 11, 2019. https://www.theguardian.com/technology/2019/jul/11/google-home-assistant-listen-recordings-users-privacy
 
-\[14] K. Okemwa, "Leaked pitch reveals marketing agency uses 'Active Listening' software to eavesdrop on calls and push curated Facebook and Google ads," Windows Central, Sep. 2, 2024. \[Online]. Available: https://www.windowscentral.com/software-apps/leaked-pitch-reveals-marketing-agency-eavesdrop-targeted-ads
+\[14] K. Okemwa, "Is this even legal?" A leaked pitch reveals marketing agency uses ‘Active Listening’ software to eavesdrop on calls and push curated Facebook and Google ads," \*Windows Central\*, Sep. 02, 2024. https://www.windowscentral.com/software-apps/leaked-pitch-reveals-marketing-agency-eavesdrop-targeted-ads (accessed Oct. 09, 2025).
 
-\[15] Business Insider, "Edward Snowden made an impassioned argument about privacy," Sep. 2016. \[Online]. Available: https://www.businessinsider.com/edward-snowden-privacy-argument-2016-9
+\[15] P. Schrodt, "Edward Snowden just made an impassioned argument for why privacy is the most important right," \*Business Insider\*, Sep. 15, 2016. https://www.businessinsider.com/edward-snowden-privacy-argument-2016-9
 
-\[16] K. Statt, "Amazon confirms Alexa can be triggered by words that sound like 'Alexa'," The Verge, Mar. 10, 2021. \[Online]. Available: https://www.theverge.com/2021/3/10/22322423/amazon-alexa-trigger-words-false-positives-mishearings
+\[16] K. Wiggers, "Researchers identify dozens of words that accidentally trigger Amazon Echo speakers," \*Venturebeat\*, Jul. 06, 2020. https://venturebeat.com/ai/researchers-identify-89-words-that-accidentally-trigger-alexa-to-record (accessed Oct. 09, 2025).
 
-\[17] CareerBuilder, "Number of Employers Using Social Media to Screen Candidates at All-Time High, Finds Latest CareerBuilder Study," CareerBuilder, Aug. 9, 2018. \[Online]. Available: https://press.careerbuilder.com/2018-08-09-Number-of-Employers-Using-Social-Media-to-Screen-Candidates-at-All-Time-High-Finds-Latest-CareerBuilder-Study
+\[17] Reuters Staff, "Danish minister calls for EU-wide sanctions on Russia over Azov Sea," \*Reuters\*, Jan. 29, 2019. Available: https://www.reuters.com/article/world/danish-minister-calls-for-eu-wide-sanctions-on-russia-over-azov-sea-idUSKCN1PN0L7/
 
-\[18] A. Gonzalez, "Life insurers quietly test social media to identify risky clients," Reuters, Jan. 29, 2019. \[Online]. Available: https://www.reuters.com/article/us-usa-insurance-socialmedia-insight-idUSKCN1PN0L8
+‌
