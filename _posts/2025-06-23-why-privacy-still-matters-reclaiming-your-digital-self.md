@@ -79,37 +79,37 @@ As Edward Snowden famously said, “Arguing that you don’t care about privacy 
 
 ## References
 
-\[1] G. Kumparak, "Facebook Now Cares About How Long You Look At Stuff In Your News Feed | TechCrunch," TechCrunch, Jun. 12, 2015. https://techcrunch.com/2015/06/12/facebook-now-cares-about-how-long-you-look-at-stuff-in-your-news-feed/
+\[1] G. Kumparak, "Facebook Now Cares About How Long You Look At Stuff In Your News Feed | TechCrunch," *TechCrunch*, Jun. 12, 2015. https://techcrunch.com/2015/06/12/facebook-now-cares-about-how-long-you-look-at-stuff-in-your-news-feed/
 
 \[2] "How to remove GPS and other metadata locations from photos," us.norton.com. https://us.norton.com/blog/how-to/how-to-remove-gps-and-other-metadata-locations-from-photos
 
-\[3] "Can My Phone Be Tracked If Location Services Are Off?," McAfee, Dec. 05, 2022. https://www.mcafee.com/learn/can-my-phone-be-tracked-if-location-services-are-off/
+\[3] "Can My Phone Be Tracked If Location Services Are Off?," *McAfee*, Dec. 05, 2022. https://www.mcafee.com/learn/can-my-phone-be-tracked-if-location-services-are-off/
 
-\[4] "Digital records could expose intimate details and personality traits of millions," University of Cambridge, Mar. 11, 2013. https://www.cam.ac.uk/research/news/digital-records-could-expose-intimate-details-and-personality-traits-of-millions
+\[4] "Digital records could expose intimate details and personality traits of millions," *University of Cambridge*, Mar. 11, 2013. https://www.cam.ac.uk/research/news/digital-records-could-expose-intimate-details-and-personality-traits-of-millions
 
-\[5] Knowledge at Wharton Staff, "Your Data Is Shared and Sold...What’s Being Done About It?," Knowledge at Wharton, Oct. 28, 2019. https://knowledge.wharton.upenn.edu/article/data-shared-sold-whats-done/
+\[5] Knowledge at Wharton Staff, "Your Data Is Shared and Sold...What’s Being Done About It?," *Knowledge at Wharton*, Oct. 28, 2019. https://knowledge.wharton.upenn.edu/article/data-shared-sold-whats-done/
 
-\[6] C. Cadwalladr and E. Graham-Harrison, "Revealed: 50 Million Facebook Profiles Harvested for Cambridge Analytica in Major Data Breach," The Guardian, Mar. 18, 2018. https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election
+\[6] C. Cadwalladr and E. Graham-Harrison, "Revealed: 50 Million Facebook Profiles Harvested for Cambridge Analytica in Major Data Breach," *The Guardian*, Mar. 18, 2018. https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election
 
-\[7] B. Gooch, "What is a sim-swap? How you could be targeted by the fraud used to hack M&S," The Independent, May 12, 2025. https://www.the-independent.com/news/uk/home-news/sim-swapping-fraud-marks-and-spencer-b2749238.html (accessed Oct. 09, 2025).
+\[7] B. Gooch, "What is a sim-swap? How you could be targeted by the fraud used to hack M&S," *The Independent*, May 12, 2025. https://www.the-independent.com/news/uk/home-news/sim-swapping-fraud-marks-and-spencer-b2749238.html (accessed Oct. 09, 2025).
 
 \[8] "People Search Data Brokers, Stalking, and ‘Publicly Available Information’ Carve-Outs," Default, 2023. https://www.lawfaremedia.org/article/people-search-data-brokers-stalking-and-publicly-available-information-carve-outs
 
-\[9] R. Wong, "Stop Screening Job Candidates’ Social Media," Harvard Business Review, Sep. 01, 2021. https://hbr.org/2021/09/stop-screening-job-candidates-social-media
+\[9] R. Wong, "Stop Screening Job Candidates’ Social Media," *Harvard Business Review*, Sep. 01, 2021. https://hbr.org/2021/09/stop-screening-job-candidates-social-media
 
-\[10] A. Chen, "Why the future of life insurance may depend on your online presence," The Verge, Feb. 07, 2019. https://www.theverge.com/2019/2/7/18211890/social-media-life-insurance-new-york-algorithms-big-data-discrimination-online-records
+\[10] A. Chen, "Why the future of life insurance may depend on your online presence," *The Verge*, Feb. 07, 2019. https://www.theverge.com/2019/2/7/18211890/social-media-life-insurance-new-york-algorithms-big-data-discrimination-online-records
 
-\[11] "Facebook admits contractors listened to users’ recordings without their knowledge," the Guardian, Aug. 14, 2019. https://www.theguardian.com/technology/2019/aug/13/facebook-messenger-user-recordings-contractors-listening
+\[11] "Facebook admits contractors listened to users’ recordings without their knowledge," *the Guardian*, Aug. 14, 2019. https://www.theguardian.com/technology/2019/aug/13/facebook-messenger-user-recordings-contractors-listening
 
-\[12] "Apple halts practice of contractors listening in to users on Siri," \*the Guardian\*, Aug. 02, 2019. https://www.theguardian.com/technology/2019/aug/02/apple-halts-practice-of-contractors-listening-in-to-users-on-siri
+\[12] "Apple halts practice of contractors listening in to users on Siri," *the Guardian*, Aug. 02, 2019. https://www.theguardian.com/technology/2019/aug/02/apple-halts-practice-of-contractors-listening-in-to-users-on-siri
 
-\[13] K. Paul, "Google workers can listen to what people say to its AI home devices," \*the Guardian\*, Jul. 11, 2019. https://www.theguardian.com/technology/2019/jul/11/google-home-assistant-listen-recordings-users-privacy
+\[13] K. Paul, "Google workers can listen to what people say to its AI home devices," *the Guardian*, Jul. 11, 2019. https://www.theguardian.com/technology/2019/jul/11/google-home-assistant-listen-recordings-users-privacy
 
-\[14] K. Okemwa, "Is this even legal?" A leaked pitch reveals marketing agency uses ‘Active Listening’ software to eavesdrop on calls and push curated Facebook and Google ads," \*Windows Central\*, Sep. 02, 2024. https://www.windowscentral.com/software-apps/leaked-pitch-reveals-marketing-agency-eavesdrop-targeted-ads (accessed Oct. 09, 2025).
+\[14] K. Okemwa, "Is this even legal?" A leaked pitch reveals marketing agency uses ‘Active Listening’ software to eavesdrop on calls and push curated Facebook and Google ads," *Windows Central*, Sep. 02, 2024. https://www.windowscentral.com/software-apps/leaked-pitch-reveals-marketing-agency-eavesdrop-targeted-ads (accessed Oct. 09, 2025).
 
-\[15] P. Schrodt, "Edward Snowden just made an impassioned argument for why privacy is the most important right," \*Business Insider\*, Sep. 15, 2016. https://www.businessinsider.com/edward-snowden-privacy-argument-2016-9
+\[15] P. Schrodt, "Edward Snowden just made an impassioned argument for why privacy is the most important right," *Business Insider*, Sep. 15, 2016. https://www.businessinsider.com/edward-snowden-privacy-argument-2016-9
 
-\[16] K. Wiggers, "Researchers identify dozens of words that accidentally trigger Amazon Echo speakers," \*Venturebeat\*, Jul. 06, 2020. https://venturebeat.com/ai/researchers-identify-89-words-that-accidentally-trigger-alexa-to-record (accessed Oct. 09, 2025).
+\[16] K. Wiggers, "Researchers identify dozens of words that accidentally trigger Amazon Echo speakers," *Venturebeat*, Jul. 06, 2020. https://venturebeat.com/ai/researchers-identify-89-words-that-accidentally-trigger-alexa-to-record
 
 \[17] Reuters Staff, "Danish minister calls for EU-wide sanctions on Russia over Azov Sea," \*Reuters\*, Jan. 29, 2019. Available: https://www.reuters.com/article/world/danish-minister-calls-for-eu-wide-sanctions-on-russia-over-azov-sea-idUSKCN1PN0L7/
 
