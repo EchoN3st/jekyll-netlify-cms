@@ -79,7 +79,7 @@ As Edward Snowden famously said, “Arguing that you don’t care about privacy 
 
 ## References
 
-\[1] G. Kumparak, "Facebook Now Cares About How Long You Look At Stuff In Your News Feed | TechCrunch," *TechCrunch*, Jun. 12, 2015. https://techcrunch.com/2015/06/12/facebook-now-cares-about-how-long-you-look-at-stuff-in-your-news-feed/
+\[1] G. Kumparak, "Facebook Now Cares About How Long You Look At Stuff In Your News Feed" TechCrunch, Jun. 12, 2015. https://techcrunch.com/2015/06/12/facebook-now-cares-about-how-long-you-look-at-stuff-in-your-news-feed/
 
 \[2] "How to remove GPS and other metadata locations from photos," us.norton.com. https://us.norton.com/blog/how-to/how-to-remove-gps-and-other-metadata-locations-from-photos
 
